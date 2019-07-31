@@ -1,0 +1,28 @@
+PODS:
+  - BRHJoyStickView (2.1.2)
+  - ObjectMapper (3.4.2)
+  - RBSManager (0.3.2):
+    - ObjectMapper (~> 3.4.2)
+    - Starscream (~> 3.0.3)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - BRHJoyStickView
+  - RBSManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BRHJoyStickView
+    - ObjectMapper
+    - RBSManager
+    - Starscream
+
+SPEC CHECKSUMS:
+  BRHJoyStickView: b332a149579ca5daa878b6bc2322c44bf47d411b
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RBSManager: 8e976eb49faa5371788f2c89d2f8052770253981
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 6dc3cce2d19a13d4d8f7940b4b12609d86122861
+
+COCOAPODS: 1.5.3
