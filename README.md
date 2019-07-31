@@ -16,10 +16,16 @@ pod install
 
 # How to use
 1. Get [rosbridge](https://github.com/RobotWebTools/rosbridge_suite) on your robot by cloning the rosbridge repository
+
 2. Open a command terminal and type: 
 ```
 roslaunch rosbridge_server rosbridge_websocket.launch
 ```
+  - 2.1 You can also install rosbridge as a package by typing the following:
+  ```
+  sudo apt-get install ros-<rosdistro>-rosbridge-server
+  ```
+  
 3. Make sure your phone and your robot are connected to the same wifi
 4. Open the app
 5. Click on the host button. Input the IP Adress of your wifi followed by a colon and the port rosbridge is connected to. The default port rosbridge connects to is 9090, which you can edit in the launch file. Below is an example:
