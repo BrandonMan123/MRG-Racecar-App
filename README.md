@@ -12,6 +12,7 @@ An app that can teleoperate a racecar or serve as a joy controller for ROS purpo
 ```
 pod install
 ```
+3. To run or edit the app, use XCWorkspace
 
 # How to use
 1. Get [rosbridge](https://github.com/RobotWebTools/rosbridge_suite) on your robot by cloning the rosbridge repository
