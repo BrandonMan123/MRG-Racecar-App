@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B22662622E74BA5006A2AF1 /* PubAndSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B22662522E74BA5006A2AF1 /* PubAndSubViewController.swift */; };
+		0B22662822E752EC006A2AF1 /* BaseTabBarControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B22662722E752EC006A2AF1 /* BaseTabBarControllerViewController.swift */; };
 		0BC200F922DF7FF800434138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC200F822DF7FF800434138 /* AppDelegate.swift */; };
 		0BC200FB22DF7FF800434138 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC200FA22DF7FF800434138 /* ViewController.swift */; };
 		0BC200FE22DF7FF800434138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC200FC22DF7FF800434138 /* Main.storyboard */; };
 		0BC2010022DF800100434138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC200FF22DF800100434138 /* Assets.xcassets */; };
 		0BC2010322DF800100434138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC2010122DF800100434138 /* LaunchScreen.storyboard */; };
+		0BF8E20F22E8DA6E00323425 /* AprilTagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF8E20E22E8DA6E00323425 /* AprilTagTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AF7EC83271C0859664CDEB2 /* Pods-MRG Racecar App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRG Racecar App.release.xcconfig"; path = "Pods/Target Support Files/Pods-MRG Racecar App/Pods-MRG Racecar App.release.xcconfig"; sourceTree = "<group>"; };
+		0B22662522E74BA5006A2AF1 /* PubAndSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubAndSubViewController.swift; sourceTree = "<group>"; };
+		0B22662722E752EC006A2AF1 /* BaseTabBarControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarControllerViewController.swift; sourceTree = "<group>"; };
 		0BC200F522DF7FF800434138 /* MRG Racecar App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MRG Racecar App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC200F822DF7FF800434138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC200FA22DF7FF800434138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		0BC200FF22DF800100434138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC2010222DF800100434138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC2010422DF800100434138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF8E20E22E8DA6E00323425 /* AprilTagTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprilTagTableViewController.swift; sourceTree = "<group>"; };
+		2E455815E279D1144212AA1A /* Pods-MRG Racecar App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MRG Racecar App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MRG Racecar App/Pods-MRG Racecar App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			children = (
 				0BC200F722DF7FF800434138 /* MRG Racecar App */,
 				0BC200F622DF7FF800434138 /* Products */,
+				BA611E6042383700B8219501 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0BC200F822DF7FF800434138 /* AppDelegate.swift */,
+				0B22662522E74BA5006A2AF1 /* PubAndSubViewController.swift */,
+				0BF8E20E22E8DA6E00323425 /* AprilTagTableViewController.swift */,
+				0B22662722E752EC006A2AF1 /* BaseTabBarControllerViewController.swift */,
 				0BC200FA22DF7FF800434138 /* ViewController.swift */,
 				0BC200FC22DF7FF800434138 /* Main.storyboard */,
 				0BC200FF22DF800100434138 /* Assets.xcassets */,
@@ -64,6 +76,15 @@
 			path = "MRG Racecar App";
 			sourceTree = "<group>";
 		};
+		BA611E6042383700B8219501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E455815E279D1144212AA1A /* Pods-MRG Racecar App.debug.xcconfig */,
+				0AF7EC83271C0859664CDEB2 /* Pods-MRG Racecar App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +92,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BC2010722DF800100434138 /* Build configuration list for PBXNativeTarget "MRG Racecar App" */;
 			buildPhases = (
+				CC1AC8D8E812F0B6619B4205 /* [CP] Check Pods Manifest.lock */,
 				0BC200F122DF7FF700434138 /* Sources */,
 				0BC200F222DF7FF700434138 /* Frameworks */,
 				0BC200F322DF7FF700434138 /* Resources */,
+				7FB06A48805567303FE332EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +153,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7FB06A48805567303FE332EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MRG Racecar App/Pods-MRG Racecar App-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BRHJoyStickView/BRHJoyStickView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BRHJoyStickView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MRG Racecar App/Pods-MRG Racecar App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC1AC8D8E812F0B6619B4205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MRG Racecar App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BC200F122DF7FF700434138 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0BC200FB22DF7FF800434138 /* ViewController.swift in Sources */,
+				0B22662822E752EC006A2AF1 /* BaseTabBarControllerViewController.swift in Sources */,
+				0BF8E20F22E8DA6E00323425 /* AprilTagTableViewController.swift in Sources */,
 				0BC200F922DF7FF800434138 /* AppDelegate.swift in Sources */,
+				0B22662622E74BA5006A2AF1 /* PubAndSubViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +353,12 @@
 		};
 		0BC2010822DF800100434138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E455815E279D1144212AA1A /* Pods-MRG Racecar App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22AJH924H4;
 				INFOPLIST_FILE = "MRG Racecar App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +366,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "N-a.MRG-Racecar-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,9 +374,12 @@
 		};
 		0BC2010922DF800100434138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF7EC83271C0859664CDEB2 /* Pods-MRG Racecar App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22AJH924H4;
 				INFOPLIST_FILE = "MRG Racecar App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "N-a.MRG-Racecar-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
